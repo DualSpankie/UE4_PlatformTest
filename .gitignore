@@ -72,3 +72,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+PlatformerTest/Saved/StagedBuilds/WindowsNoEditor/PlatformerTest/Content/Paks/PlatformerTest-WindowsNoEditor.pak

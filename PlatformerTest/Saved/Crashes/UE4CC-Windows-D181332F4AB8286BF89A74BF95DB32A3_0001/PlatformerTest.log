@@ -1,0 +1,1337 @@
+﻿Log file open, 03/07/23 21:42:57
+LogInit: Display: Running engine for game: PlatformerTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.172029
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 12th Gen Intel(R) Core(TM) i7-12700H, GPU: Intel(R) Iris(R) Xe Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+[2023.03.08-03.42.57:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.03.08-03.42.57:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+[2023.03.08-03.42.57:479][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.03.08-03.42.57:481][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.08-03.42.57:481][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.03.08-03.42.57:481][  0]LogHAL: Display: Platform has ~ 16 GB [16869548032 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.03.08-03.42.57:481][  0]LogInit: Going up to parent DeviceProfile []
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.08-03.42.57:481][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Scalability.ini]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.03.08-03.42.57:482][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Config/Windows/Engine.ini]
+[2023.03.08-03.42.57:482][  0]LogInit: Computer: LAPTOP-4CPK1FAG
+[2023.03.08-03.42.57:482][  0]LogInit: User: Benjamin
+[2023.03.08-03.42.57:482][  0]LogInit: CPU Page size=4096, Cores=14
+[2023.03.08-03.42.57:482][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.03.08-03.42.57:482][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
+[2023.03.08-03.42.57:482][  0]LogMemory: Platform Memory Stats for Windows
+[2023.03.08-03.42.57:482][  0]LogMemory: Process Physical Memory: 118.02 MB used, 118.02 MB peak
+[2023.03.08-03.42.57:482][  0]LogMemory: Process Virtual Memory: 101.55 MB used, 101.55 MB peak
+[2023.03.08-03.42.57:482][  0]LogMemory: Physical Memory: 9794.41 MB used,  6293.65 MB free, 16088.05 MB total
+[2023.03.08-03.42.57:482][  0]LogMemory: Virtual Memory: 5218.28 MB used,  134212512.00 MB free, 134217728.00 MB total
+[2023.03.08-03.42.57:486][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.03.08-03.42.57:520][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.03.08-03.42.57:521][  0]LogInit: Using OS detected language (en-US).
+[2023.03.08-03.42.57:521][  0]LogInit: Using OS detected locale (en-US).
+[2023.03.08-03.42.57:524][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2023.03.08-03.42.57:613][  0]LogInit: Setting process to per monitor DPI aware
+[2023.03.08-03.42.57:639][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.03.08-03.42.57:639][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.03.08-03.42.57:730][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.03.08-03.42.57:730][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.03.08-03.42.57:730][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.03.08-03.42.57:730][  0]LogD3D11RHI: D3D11 adapters:
+[2023.03.08-03.42.57:805][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Laptop GPU' (Feature Level 11_0)
+[2023.03.08-03.42.57:805][  0]LogD3D11RHI:       6023/0/8044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.03.08-03.42.57:844][  0]LogD3D11RHI:    1. 'Intel(R) Iris(R) Xe Graphics' (Feature Level 11_0)
+[2023.03.08-03.42.57:844][  0]LogD3D11RHI:       128/0/8044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2023.03.08-03.42.57:846][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.03.08-03.42.57:846][  0]LogD3D11RHI:       0/0/8044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.03.08-03.42.57:846][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.03.08-03.42.57:852][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.03.08-03.42.57:852][  0]LogD3D11RHI:     GPU DeviceId: 0x2560 (for the marketing name, search the web for "GPU Device Id")
+[2023.03.08-03.42.57:852][  0]LogWindows: EnumDisplayDevices:
+[2023.03.08-03.42.57:852][  0]LogWindows:    0. 'Intel(R) Iris(R) Xe Graphics' (P:1 D:1)
+[2023.03.08-03.42.57:852][  0]LogWindows:    1. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2023.03.08-03.42.57:852][  0]LogWindows:    2. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2023.03.08-03.42.57:852][  0]LogWindows:    3. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2023.03.08-03.42.57:852][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2023.03.08-03.42.57:853][  0]LogWindows:    5. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2023.03.08-03.42.57:853][  0]LogWindows:    6. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2023.03.08-03.42.57:853][  0]LogWindows:    7. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2023.03.08-03.42.57:853][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2023.03.08-03.42.57:853][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[2023.03.08-03.42.57:853][  0]LogD3D11RHI:   Driver Version: 517.70 (internal:31.0.15.1770, unified:517.70)
+[2023.03.08-03.42.57:853][  0]LogD3D11RHI:      Driver Date: 10-24-2022
+[2023.03.08-03.42.57:853][  0]LogRHI: Texture pool is 4216 MB (70% of 6023 MB)
+[2023.03.08-03.42.57:890][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.03.08-03.42.57:890][  0]LogD3D11RHI: Async texture creation enabled
+[2023.03.08-03.42.57:890][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.03.08-03.42.57:901][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.03.08-03.42.58:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.03.08-03.42.58:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.03.08-03.42.58:158][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.03.08-03.42.58:158][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.03.08-03.42.58:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.03.08-03.42.58:176][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.03.08-03.42.58:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.03.08-03.42.58:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.03.08-03.42.58:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.03.08-03.42.58:209][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.03.08-03.42.58:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.03.08-03.42.58:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.03.08-03.42.58:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.03.08-03.42.58:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.03.08-03.42.58:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.03.08-03.42.58:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.03.08-03.42.58:268][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.03.08-03.42.58:277][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.03.08-03.42.58:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.03.08-03.42.58:286][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.03.08-03.42.58:303][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.03.08-03.42.58:381][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Intermediate/Shaders/WorkingDirectory/39308/).
+[2023.03.08-03.42.58:381][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Benjamin/AppData/Local/Temp/UnrealShaderWorkingDir/D297B1A843021DDD2943FEA9E841A730/'.
+[2023.03.08-03.42.58:382][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.03.08-03.42.58:382][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.03.08-03.42.58:382][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.03.08-03.42.58:899][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.03.08-03.42.58:939][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/Benjamin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.03.08-03.42.58:939][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Benjamin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2023.03.08-03.42.58:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.03.08-03.42.58:939][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.03.08-03.42.58:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.08-03.42.58:939][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.03.08-03.42.58:947][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.03.08-03.42.58:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.08-03.42.58:947][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.03.08-03.42.58:949][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Benjamin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.03.08-03.42.58:949][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.03.08-03.42.58:949][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.03.08-03.42.58:980][  0]LogSlate: Using FreeType 2.10.0
+[2023.03.08-03.42.58:981][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.03.08-03.42.59:004][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2023.03.08-03.42.59:140][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.08-03.42.59:231][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.03.08-03.42.59:232][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.03.08-03.42.59:232][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.03.08-03.42.59:232][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.03.08-03.42.59:232][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.03.08-03.42.59:243][  0]LogNetVersion: PlatformerTest 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3589177127)
+[2023.03.08-03.42.59:528][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002151EF0DBC0), frame # 0
+[2023.03.08-03.42.59:528][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002151EE47D80), frame # 0
+[2023.03.08-03.42.59:529][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002151EE9DE00), frame # 0
+[2023.03.08-03.42.59:567][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.033524 seconds
+[2023.03.08-03.42.59:570][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2023.03.08-03.42.59:570][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2023.03.08-03.42.59:570][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.03.08-03.42.59:949][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.03.08-03.42.59:954][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.03.08-03.43.00:068][  0]SourceControl: Source control is disabled
+[2023.03.08-03.43.00:068][  0]SourceControl: Source control is disabled
+[2023.03.08-03.43.00:073][  0]SourceControl: Source control is disabled
+[2023.03.08-03.43.00:077][  0]SourceControl: Source control is disabled
+[2023.03.08-03.43.00:085][  0]SourceControl: Source control is disabled
+[2023.03.08-03.43.00:393][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.03.08-03.43.00:418][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.08-03.43.00:418][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.08-03.43.00:464][  0]LogOcInput: OculusInput pre-init called
+[2023.03.08-03.43.00:475][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.03.08-03.43.00:475][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.03.08-03.43.00:528][  0]LogEngine: Initializing Engine...
+[2023.03.08-03.43.00:529][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.03.08-03.43.00:529][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.03.08-03.43.00:530][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.03.08-03.43.00:609][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.03.08-03.43.00:617][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.03.08-03.43.00:617][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215266B3C00), frame # 0
+[2023.03.08-03.43.00:617][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215266FA5C0), frame # 0
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.08-03.43.00:631][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.08-03.43.00:631][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.08-03.43.00:631][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.08-03.43.00:642][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.08-03.43.00:642][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.03.08-03.43.00:690][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.08-03.43.00:691][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.08-03.43.00:694][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.08-03.43.00:694][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.08-03.43.00:695][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.08-03.43.00:696][  0]LogInit: FAudioDevice initialized.
+[2023.03.08-03.43.00:696][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.03.08-03.43.00:731][  0]LogDerivedDataCache: Saved boot cache 0.03s 76MB C:/Users/Benjamin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.03.08-03.43.00:731][  0]LogInit: Texture streaming: Enabled
+[2023.03.08-03.43.00:750][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.03.08-03.43.00:750][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.03.08-03.43.00:753][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.03.08-03.43.00:800][  0]LogInit: Transaction tracking system initialized
+[2023.03.08-03.43.00:826][  0]BlueprintLog: New page: Editor Load
+[2023.03.08-03.43.00:923][  0]LocalizationService: Localization service is disabled
+[2023.03.08-03.43.01:068][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.03.08-03.43.01:068][  0]LogCook: Display: Mobile HDR setting 1
+[2023.03.08-03.43.01:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/' took 0.00s
+[2023.03.08-03.43.01:385][  0]SourceControl: Source control is disabled
+[2023.03.08-03.43.01:385][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.947
+[2023.03.08-03.43.01:385][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/MyLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.08-03.43.01:389][  0]LightingResults: New page: Lighting Build
+[2023.03.08-03.43.01:391][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-03.43.01:391][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-03.43.01:391][  0]MapCheck: New page: Map Check
+[2023.03.08-03.43.01:391][  0]LightingResults: New page: Lighting Build
+[2023.03.08-03.43.01:409][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215266B3C00), frame # 0
+[2023.03.08-03.43.01:409][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215266FA5C0), frame # 0
+[2023.03.08-03.43.01:410][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.03.08-03.43.01:496][  0]LogAIModule: Creating AISystem for world MyLevel
+[2023.03.08-03.43.01:497][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021526997E00), frame # 0
+[2023.03.08-03.43.01:497][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215270F82C0), frame # 0
+[2023.03.08-03.43.01:501][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.08-03.43.01:512][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.03.08-03.43.01:514][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.08-03.43.01:514][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.164ms to complete.
+[2023.03.08-03.43.01:514][  0]LogFileHelpers: Loading map 'MyLevel' took 0.129
+[2023.03.08-03.43.01:515][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.077
+[2023.03.08-03.43.01:635][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-03.43.01:640][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-03.43.01:644][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-03.43.01:648][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-03.43.01:659][  0]LogCollectionManager: Loaded 0 collections in 0.001205 seconds
+[2023.03.08-03.43.01:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Collections/' took 0.00s
+[2023.03.08-03.43.01:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/Developers/Benjamin/Collections/' took 0.00s
+[2023.03.08-03.43.01:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/Collections/' took 0.00s
+[2023.03.08-03.43.01:680][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 3427 classes and 821 folders.
+[2023.03.08-03.43.01:688][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.03.08-03.43.01:795][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.03.08-03.43.01:799][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2023.03.08-03.43.01:882][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.08-03.43.01:884][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.03.08-03.43.01:889][  0]LogSlate: Took 0.000855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.03.08-03.43.01:942][  0]LogRenderer: Reallocating scene render targets to support 912x460 Format 10 NumSamples 1 (Frame:1).
+[2023.03.08-03.43.01:993][  0]LogSlate: Took 0.000595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.08-03.43.02:031][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.03.08-03.43.02:031][  0]LogLoad: (Engine Initialization) Total time: 5.59 seconds
+[2023.03.08-03.43.02:031][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.03.08-03.43.02:067][  0]LogAssetRegistry: Asset discovery search completed in 3.0642 seconds
+[2023.03.08-03.43.02:069][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2023.03.08-03.43.02:071][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.03.08-03.44.20:440][257]LogSlate: Took 0.007550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.08-03.44.20:488][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.03.08-03.44.20:489][257]LogMetaData: Removing '/Game/HUD.SKEL_HUD_C' ref from Metadata '/Game/NewWidgetBlueprint.PackageMetaData'
+[2023.03.08-03.44.20:489][257]LogMetaData: Removing '/Game/HUD.HUD_C' ref from Metadata '/Game/NewWidgetBlueprint.PackageMetaData'
+[2023.03.08-03.44.20:489][257]LogMetaData: Removing '/Game/HUD.HUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewWidgetBlueprint.PackageMetaData'
+[2023.03.08-03.44.20:489][257]LogMetaData: Removing '/Game/HUD.HUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewWidgetBlueprint.PackageMetaData'
+[2023.03.08-03.44.20:489][257]LogMetaData: Removing '/Game/HUD.HUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewWidgetBlueprint.PackageMetaData'
+[2023.03.08-03.44.20:514][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-03.44.20:521][257]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD911234554C8420939EB952A8FB4DC73D.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-03.44.20:592][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.03.08-03.44.20:615][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.03.08-03.44.20:625][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.03.08-03.44.20:637][257]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-03.44.20:637][257]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-03.44.22:375][361]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-03.44.22:521][361]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2023.03.08-03.44.23:341][361]LogSlate: Took 0.005968 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBB988EF3-47F1-1710-C1B9-EABC91DDFB0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=f5f4098d445355ab04fac9811dbf6aa8%7Cf730ba0414974f82b8e4ca285038154b%7C8807f9cb-964c-4f15-b560-c449fcc7a10f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2157c067f70 [can pipeline])
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.200.38.249) port 443 (#0))
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.03.08-03.47.21:700][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.03.08-03.47.21:701][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.03.08-03.47.21:701][224]LogHttp: Warning: 000002158FB9EB00: libcurl info message cache 7 (Closing connection 0)
+[2023.03.08-03.47.21:701][224]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBB988EF3-47F1-1710-C1B9-EABC91DDFB0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=f5f4098d445355ab04fac9811dbf6aa8%7Cf730ba0414974f82b8e4ca285038154b%7C8807f9cb-964c-4f15-b560-c449fcc7a10f&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2023.03.08-03.49.34:772][733]LogEditorTransaction: Undo Edit Right
+[2023.03.08-03.50.03:378][438]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.08-03.50.52:394][374]LogEditorTransaction: Undo Set Vector Property
+[2023.03.08-03.52.06:208][787]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-03.52.06:527][788]LogSlate: Took 0.000776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.08-03.53.13:404][609]BlueprintLog: New page: Collapse to Function
+[2023.03.08-03.53.51:395][861]LogRenderer: Reallocating scene render targets to support 912x532 Format 10 NumSamples 1 (Frame:1).
+[2023.03.08-03.54.08:634][881]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event Hit  and was replaced as a Custom Event!
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBB988EF3-47F1-1710-C1B9-EABC91DDFB0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=f5f4098d445355ab04fac9811dbf6aa8%7Cf730ba0414974f82b8e4ca285038154b%7C8807f9cb-964c-4f15-b560-c449fcc7a10f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2157c067f70 [can pipeline])
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.208.7.42) port 443 (#3))
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.03.08-03.54.30:239][155]LogHttp: Warning: 00000215A5A40F00: libcurl info message cache 7 (Closing connection 3)
+[2023.03.08-03.54.30:255][156]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBB988EF3-47F1-1710-C1B9-EABC91DDFB0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=f5f4098d445355ab04fac9811dbf6aa8%7Cf730ba0414974f82b8e4ca285038154b%7C8807f9cb-964c-4f15-b560-c449fcc7a10f&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2023.03.08-03.55.12:081][655]LogSlate: Took 0.006301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.03.08-03.55.57:964][524]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-03.55.57:969][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  My Comp  in a non-event graph.
+[2023.03.08-03.55.57:969][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Other  in a non-event graph.
+[2023.03.08-03.55.57:969][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Other Comp  in a non-event graph.
+[2023.03.08-03.55.57:969][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Self Moved  in a non-event graph.
+[2023.03.08-03.55.57:969][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Hit Location  in a non-event graph.
+[2023.03.08-03.55.57:970][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Hit Normal  in a non-event graph.
+[2023.03.08-03.55.57:970][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Normal Impulse  in a non-event graph.
+[2023.03.08-03.55.57:970][524]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Hit  in a non-event graph.
+[2023.03.08-03.55.58:024][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.03.08-03.55.58:091][524]LogSlate: Took 0.014540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.08-03.55.58:437][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-03.55.58:474][543]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacterD0C63EB84A1055E4964104969084E620.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-03.55.58:487][543]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-03.55.58:487][543]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-03.56.32:254][464]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  My Comp  in a non-event graph.
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Other  in a non-event graph.
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Other Comp  in a non-event graph.
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Self Moved  in a non-event graph.
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Hit Location  in a non-event graph.
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Hit Normal  in a non-event graph.
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Normal Impulse  in a non-event graph.
+[2023.03.08-03.56.32:259][464]LogBlueprint: Error: [Compiler BP_MyCharacter] Event node  Event Hit  registers net  Hit  in a non-event graph.
+[2023.03.08-03.56.32:294][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.03.08-03.57.04:778][340]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-03.57.04:828][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.03.08-03.57.05:622][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-03.57.05:647][384]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacterA20082A545E77196BC3B73AE1245E366.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-03.57.05:660][384]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-03.57.05:660][384]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-03.59.18:311][603]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-03.59.18:358][603]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.03.08-03.59.19:359][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-03.59.19:382][660]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacterE14E49084FC9DC923463C8889428F258.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-03.59.19:395][660]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-03.59.19:395][660]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-03.59.31:675][392]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-03.59.31:722][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.03.08-03.59.32:407][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-03.59.32:432][430]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacter23B251004C4C8CDFAD2BCC9D409161AA.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-03.59.32:442][430]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-03.59.32:443][430]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-03.59.51:751][350]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-03.59.51:793][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.03.08-03.59.52:261][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-03.59.52:285][375]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacter0097993A4D8C1AF9EBC547B493C637E2.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-03.59.52:298][375]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-03.59.52:298][375]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.01.02:354][265]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-04.01.02:396][265]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.03.08-04.01.02:868][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-04.01.02:895][290]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacterA4CFDF6648FB423EBC2F7CAE3C06A481.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-04.01.02:906][290]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-04.01.02:906][290]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.04.57:557][145]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.04.57:592][145]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.03.08-04.04.57:923][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.04.57:938][163]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD571950754CFD47EDEBA0769A7ACF4D64.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.04.57:949][163]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.04.57:949][163]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.05.57:292][332]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.06.00:861][542]LogRenderer: Reallocating scene render targets to support 1032x532 Format 10 NumSamples 1 (Frame:45685).
+[2023.03.08-04.06.01:931][605]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.06.33:483][489]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.06.33:532][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.03.08-04.06.33:954][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.06.33:967][513]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD461CEBAC4935CEE6FC8290B3EB11B245.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.06.33:979][513]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.06.33:979][513]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.06.35:147][582]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-04.06.35:198][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.03.08-04.06.35:602][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-04.06.35:628][603]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacterF10D4E734FD5BBCFBC3A85AFE1B2947F.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-04.06.35:643][603]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-04.06.35:643][603]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.06.38:219][757]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.07.02:984][219]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-04.07.02:984][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.07.04:852][329]LogSlate: Window 'HUD' being destroyed
+[2023.03.08-04.07.04:865][329]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-04.07.04:865][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.07.04:876][329]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-04.07.04:876][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.07.07:894][509]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.07.15:254][946]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.07.18:948][151]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.07.54:560][270]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.07.54:623][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.03.08-04.07.55:010][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.07.55:022][291]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD0459940749FFF40F587DFAADB321A1CF.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.07.55:033][291]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.07.55:033][291]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.07.55:839][340]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.03.08-04.07.56:734][392]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.08.07:027][  2]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.08.56:764][642]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.03.08-04.09.48:622][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.09.48:635][265]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD0FAD6175475E028373F4C9BE30490A6B.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.09.48:648][265]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.09.48:649][265]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.09.48:955][284]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.09.49:001][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.03.08-04.09.49:406][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.09.49:419][306]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD989106F34166E678CA9381BB44E29B79.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.09.49:428][306]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.09.49:428][306]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.09.50:877][392]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.10.45:864][435]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-04.10.45:917][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.03.08-04.10.46:351][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-04.10.46:375][457]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacter66D63C0743B5ECDAD9F8D7BC5917A4C9.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-04.10.46:387][457]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-04.10.46:387][457]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.10.47:335][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.03.08-04.10.48:212][562]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.03.08-04.10.48:792][596]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.03.08-04.10.49:971][665]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.13.37:164][324]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.03.08-04.13.38:276][390]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.13.47:092][815]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.14.02:467][  5]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.14.17:907][270]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.14.43:175][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.03.08-04.14.43:179][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyLevel' took 0.022
+[2023.03.08-04.14.43:180][422]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD] ([1] browsable assets)...
+[2023.03.08-04.14.43:180][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD]
+[2023.03.08-04.14.43:180][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Autosaves/Game/HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.03.08-04.14.43:197][422]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD_Auto18A9F75574B3B1E71803A3BA55D634097.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Autosaves/Game/HUD_Auto1.uasset'
+[2023.03.08-04.14.43:198][422]LogFileHelpers: Auto-saving content packages took 0.019
+[2023.03.08-04.15.19:318][530]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.15.43:451][950]MapCheck: New page: Map Check
+[2023.03.08-04.15.43:481][950]LightingResults: New page: Lighting Build - Mar 7, 2023, 4:15:43 PM
+[2023.03.08-04.15.43:540][950]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.03.08-04.15.43:638][950]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.03.08-04.15.43:650][950]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.03.08-04.15.45:215][950]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.03.08-04.15.45:215][950]LogSwarmInterface: [TryOpenConnection] Local Process ID is 39308
+[2023.03.08-04.15.52:280][950]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.03.08-04.15.52:280][950]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.03.08-04.15.52:280][950]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.03.08-04.15.52:280][950]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.03.08-04.15.52:280][950]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.03.08-04.15.52:280][950]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.03.08-04.15.52:476][950]LogEditorBuildUtils: Build time 0:09
+[2023.03.08-04.15.52:481][950]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2023.03.08-04.15.52:487][950]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2023.03.08-04.15.52:489][950]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2023.03.08-04.15.52:490][950]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 8
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 7
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 6
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 5
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 4
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 3
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 2
+[2023.03.08-04.15.52:504][950]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 1
+[2023.03.08-04.15.52:509][951]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2023.03.08-04.15.52:511][951]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2023.03.08-04.15.52:514][951]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2023.03.08-04.15.52:516][951]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2023.03.08-04.15.52:520][951]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2023.03.08-04.15.52:523][951]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 12
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 11
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 10
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 9
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 8
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 7
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 6
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 5
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 4
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 3
+[2023.03.08-04.15.53:855][952]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 2
+[2023.03.08-04.15.53:856][952]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 1
+[2023.03.08-04.15.54:096][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.03.08-04.15.56:521][ 80]Job is a success!
+[2023.03.08-04.15.56:552][ 81]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 1
+SessionName : 
+Reason      : Applying Lighting
+
+Purging the undo buffer...
+
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.021s
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport:      Bricks at depth
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport:          0: 12.5% covering 100.0% of volume
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport:          1: 12.5% covering 1.6% of volume
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport:          2: 75.0% covering 0.1% of volume
+[2023.03.08-04.15.56:615][ 81]LogVolumetricLightmapImport:      Bricks in each level
+[2023.03.08-04.15.56:616][ 81]LogVolumetricLightmapImport:          MyLevel 			 8 bricks 	 100.0% (Persistent Level)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2023.03.08-04.15.56:673][ 81]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X128)
+[2023.03.08-04.15.56:673][ 81]LogStaticLightingSystem: MyLevel_BuiltData storing lightmap data for 7 meshes in 2 LightmapResourceClusters (3.5 Meshes per cluster).
+[2023.03.08-04.15.56:693][ 81]Lightmass on LAPTOP-4CPK1FAG: 847 ms total, 118 ms importing, 28 ms setup, 74 ms photons, 524 ms processing, 0 ms extra exporting [7/7 mappings]. Threads: 9.93 sec total, 211 ms processing.
+[2023.03.08-04.15.56:697][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.03.08-04.15.56:718][ 81]LogStaticLightingSystem: Illumination: 13.2 sec (20 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2023.03.08-04.15.56:718][ 81]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2023.03.08-04.15.56:718][ 81]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.03.08-04.15.57:277][ 81]DumpUnbuiltLightIteractions
+[2023.03.08-04.15.57:277][ 81]Lights with unbuilt interactions: 0
+[2023.03.08-04.15.57:277][ 81]
+[2023.03.08-04.15.57:277][ 81]Primitives with unbuilt interactions: 0
+[2023.03.08-04.15.57:369][ 82]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.03.08-04.15.57:370][ 82]MapCheck: New page: MyLevel - Mar 7, 2023, 4:15:57 PM
+[2023.03.08-04.15.57:370][ 82]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.77ms to complete.
+[2023.03.08-04.15.58:371][142]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.15.58:382][142]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.08-04.15.58:389][142]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2023.03.08-04.15.58:432][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.03.08-04.15.58:433][142]LogPlayLevel: PlayLevel: Blueprint regeneration took 51 ms (1 blueprints)
+[2023.03.08-04.15.58:434][142]PIE: New page: PIE session: MyLevel (Mar 7, 2023, 4:15:58 PM)
+[2023.03.08-04.15.58:435][142]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.03.08-04.15.58:437][142]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.08-04.15.58:437][142]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyLevel
+[2023.03.08-04.15.58:440][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002547s)
+[2023.03.08-04.15.58:440][142]LogAIModule: Creating AISystem for world MyLevel
+[2023.03.08-04.15.58:440][142]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215E7214200), frame # 86142
+[2023.03.08-04.15.58:440][142]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002155C9A8CC0), frame # 86142
+[2023.03.08-04.15.58:440][142]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2023.03.08-04.15.58:440][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyLevel.MyLevel to /Game/UEDPIE_0_MyLevel.MyLevel (0.003426s)
+[2023.03.08-04.15.58:457][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.03.08-04.15.58:458][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.08-04.15.58:458][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.08-04.15.58:458][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.08-04.15.58:458][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.08-04.15.58:458][142]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.08-04.15.58:458][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.08-04.15.58:458][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.08-04.15.58:458][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.08-04.15.58:459][142]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.08-04.15.58:459][142]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.08-04.15.58:460][142]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.08-04.15.58:460][142]LogAudioMixer: Display: 1: FrontRight
+[2023.03.08-04.15.58:495][142]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.08-04.15.58:495][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.08-04.15.58:495][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.08-04.15.58:495][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.08-04.15.58:495][142]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.08-04.15.58:506][142]LogInit: FAudioDevice initialized.
+[2023.03.08-04.15.58:512][142]LogLoad: Game class is 'BP_GameMode_C'
+[2023.03.08-04.15.58:513][142]LogWorld: Bringing World /Game/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2023.03.07-22.15.58
+[2023.03.08-04.15.58:513][142]LogWorld: Bringing up level for play took: 0.000788
+[2023.03.08-04.15.58:513][142]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.03.08-04.15.58:525][142]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2023.03.08-04.15.58:527][142]PIE: Server logged in
+[2023.03.08-04.15.58:528][142]PIE: Play in editor total start time 0.148 seconds.
+[2023.03.08-04.16.09:525][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-04.16.09:525][789]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MyLevel
+[2023.03.08-04.16.09:525][789]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-04.16.09:526][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.16.09:534][789]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.08-04.16.09:537][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.16.09:563][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-04.16.09:585][789]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002155C9A8CC0), frame # 86789
+[2023.03.08-04.16.09:585][789]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215E7214200), frame # 86789
+[2023.03.08-04.16.09:587][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.03.08-04.16.09:607][790]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.03.08-04.17.20:548][ 15]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.17.20:553][ 15]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.17.20:582][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.03.08-04.17.21:031][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.17.21:044][ 40]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD84A8A7644AA1305C46273992C77EBDBD.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.17.21:056][ 40]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.17.21:056][ 40]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.17.44:392][377]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.17.44:401][377]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.17.44:426][377]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.03.08-04.17.44:772][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.17.44:785][394]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD1BBA4490454DF33A1547158F88055FC0.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.17.44:795][394]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.17.44:796][394]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.18.22:925][625]LogEditorTransaction: Undo Delete current selection
+[2023.03.08-04.18.48:114][ 73]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-04.18.48:169][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.03.08-04.18.48:576][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-04.18.48:602][ 93]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacter0561FA8E46A256A7CE87AEA32D31F3FF.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-04.18.48:615][ 93]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-04.18.48:615][ 93]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.19.11:438][459]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.11:444][459]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.11:473][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.03.08-04.19.12:945][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.19.12:958][544]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD14DDA16340ECA209D9A0A5B3973D801B.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.19.12:967][544]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.19.12:967][544]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.19.16:668][765]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.16:672][765]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.16:696][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.03.08-04.19.16:983][780]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.16:987][780]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.17:015][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.03.08-04.19.17:250][792]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.17:255][792]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.17:284][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.03.08-04.19.17:503][803]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.17:507][803]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.17:536][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.03.08-04.19.17:756][814]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.17:760][814]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.17:785][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.03.08-04.19.18:005][825]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.18:009][825]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.18:038][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.03.08-04.19.28:849][469]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.19.48:940][500]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.19.48:944][500]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.19.48:978][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.03.08-04.19.52:448][707]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.19.54:231][814]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.20.07:779][625]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.20.30:299][970]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.20.30:304][970]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.20.30:330][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.03.08-04.20.37:385][392]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.20.38:336][449]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.20.38:569][463]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.20.38:752][474]LogBlueprint: Warning: Unknown type of hyperlinked object (MyScoreText), cannot focus it
+[2023.03.08-04.20.47:956][ 20]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.20.47:960][ 20]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.20.47:997][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.03.08-04.20.48:510][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.20.48:525][ 49]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUDCD7D5E0748C0F27FA9E39E911B7BDC2F.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.20.48:535][ 49]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.20.48:535][ 49]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.20.59:623][711]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-04.20.59:667][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.03.08-04.21.00:399][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-04.21.00:423][752]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacter3768698F42AF7601C409F88B43379810.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-04.21.00:434][752]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-04.21.00:434][752]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.21.02:557][879]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.21.02:565][879]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.21.02:592][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.03.08-04.21.03:289][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.21.03:302][919]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUD7168507E45F7DC9E101332A124CE6B5F.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.21.03:311][919]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.21.03:311][919]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.21.18:034][793]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-04.21.18:083][793]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.03.08-04.21.18:447][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-04.21.18:471][812]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacter4544E5C04EC4B36F25A212A7E4CC9E3E.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-04.21.18:483][812]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-04.21.18:483][812]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.21.19:381][866]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.21.19:388][866]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' MyScoreText ': Binding: 'None' : 'None' was not found on 'HUD'.
+[2023.03.08-04.21.19:418][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.03.08-04.21.19:948][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.21.19:961][896]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUDAF1C07484AAF8CEF3798EDB0E1FAE029.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.21.19:969][896]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.21.19:969][896]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.22.01:125][353]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.22.01:157][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.03.08-04.22.01:833][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.22.01:846][390]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUDD16ED97F4DCA332CA07F0A922427C1B8.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.22.01:858][390]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.22.01:858][390]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.22.03:907][513]BlueprintLog: New page: Compile BP_MyCharacter
+[2023.03.08-04.22.03:956][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.08-04.22.04:657][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyCharacter" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset" SILENT=true
+[2023.03.08-04.22.04:682][551]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/BP_MyCharacter79587C4B42FD2AE235D7798C222E1DED.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/BP_MyCharacter.uasset'
+[2023.03.08-04.22.04:692][551]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2023.03.08-04.22.04:692][551]LogContentValidation: Display: Validating Blueprint /Game/BP_MyCharacter.BP_MyCharacter
+[2023.03.08-04.22.08:059][752]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.22.08:094][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.03.08-04.22.08:837][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.22.08:850][795]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUDC19466CF48894F2E4222359BD98597B5.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.22.08:859][795]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.22.08:859][795]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.22.16:699][258]BlueprintLog: New page: Compile HUD
+[2023.03.08-04.22.16:738][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.03.08-04.22.17:091][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset" SILENT=true
+[2023.03.08-04.22.17:106][277]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/HUDC5E3919C4EF6309D5DB50EA1D9C04EF9.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/HUD.uasset'
+[2023.03.08-04.22.17:117][277]AssetCheck: New page: Asset Save: HUD
+[2023.03.08-04.22.17:117][277]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD.HUD
+[2023.03.08-04.22.20:616][486]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.08-04.22.20:627][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.08-04.22.20:627][486]PIE: New page: PIE session: MyLevel (Mar 7, 2023, 4:22:20 PM)
+[2023.03.08-04.22.20:653][486]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyLevel
+[2023.03.08-04.22.20:658][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005259s)
+[2023.03.08-04.22.20:659][486]LogAIModule: Creating AISystem for world MyLevel
+[2023.03.08-04.22.20:659][486]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002157FBBC600), frame # 108486
+[2023.03.08-04.22.20:660][486]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002157F616340), frame # 108486
+[2023.03.08-04.22.20:660][486]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2023.03.08-04.22.20:660][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyLevel.MyLevel to /Game/UEDPIE_0_MyLevel.MyLevel (0.006692s)
+[2023.03.08-04.22.20:690][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.08-04.22.20:691][486]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.08-04.22.20:691][486]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.08-04.22.20:691][486]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.08-04.22.20:692][486]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.08-04.22.20:692][486]LogAudioMixer: Display: 1: FrontRight
+[2023.03.08-04.22.20:725][486]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.08-04.22.20:726][486]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.08-04.22.20:726][486]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.08-04.22.20:726][486]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.08-04.22.20:726][486]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.08-04.22.20:735][486]LogInit: FAudioDevice initialized.
+[2023.03.08-04.22.20:742][486]LogLoad: Game class is 'BP_GameMode_C'
+[2023.03.08-04.22.20:744][486]LogWorld: Bringing World /Game/UEDPIE_0_MyLevel.MyLevel up for play (max tick rate 60) at 2023.03.07-22.22.20
+[2023.03.08-04.22.20:744][486]LogWorld: Bringing up level for play took: 0.000602
+[2023.03.08-04.22.20:744][486]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2023.03.08-04.22.20:746][486]PIE: Server logged in
+[2023.03.08-04.22.20:747][486]PIE: Play in editor total start time 0.12 seconds.
+[2023.03.08-04.22.30:767][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-04.22.30:767][ 85]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MyLevel
+[2023.03.08-04.22.30:767][ 85]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-04.22.30:768][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.22.30:775][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.08-04.22.30:779][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.22.30:806][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.08-04.22.30:819][ 85]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002157F616340), frame # 109085
+[2023.03.08-04.22.30:819][ 85]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002157FBBC600), frame # 109085
+[2023.03.08-04.22.30:821][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.08-04.22.30:842][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.03.08-04.25.06:174][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.03.08-04.25.06:204][635]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/MyLevel_Auto20C5D6538450A3EF94911AA95B42824E0.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/Autosaves/Game/MyLevel_Auto2.umap'
+[2023.03.08-04.25.06:205][635]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyLevel' took 0.055
+[2023.03.08-04.25.06:205][635]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.055
+[2023.03.08-04.35.06:730][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.03.08-04.35.06:732][423]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyLevel' took 0.022
+[2023.03.08-04.37.52:607][921]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TitleScreen.TitleScreen
+[2023.03.08-04.37.52:635][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.03.08-04.37.54:350][921]LogSlate: Window 'Save Content' being destroyed
+[2023.03.08-04.37.54:362][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyLevel" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/MyLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.08-04.37.54:392][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.08-04.37.54:410][921]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/MyLevel44AFD95945DE35A1AB76D6A76C381A17.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/MyLevel.umap'
+[2023.03.08-04.37.54:429][921]LogFileHelpers: Saving map 'MyLevel' took 0.066
+[2023.03.08-04.37.54:429][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyLevel_BuiltData" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/MyLevel_BuiltData.uasset" SILENT=true
+[2023.03.08-04.37.54:442][921]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/MyLevel_BuiltDataB5AC043A4CFCCF9D0B1A6DA1C0EA0CF2.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/MyLevel_BuiltData.uasset'
+[2023.03.08-04.37.54:472][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.03.08-04.37.54:477][921]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/TitleScreenB254A02F45F6D30B1D13FC8B02D7B5BF.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/TitleScreen.umap'
+[2023.03.08-04.37.54:479][921]LogFileHelpers: Saving map 'TitleScreen' took 0.035
+[2023.03.08-04.37.54:479][921]Cmd: MAP LOAD FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.08-04.37.54:479][921]LightingResults: New page: Lighting Build
+[2023.03.08-04.37.54:479][921]LoadErrors: New page: Loading map: TitleScreen.umap
+[2023.03.08-04.37.54:480][921]LogWorld: UWorld::CleanupWorld for MyLevel, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-04.37.54:480][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.37.54:480][921]MapCheck: New page: Map Check
+[2023.03.08-04.37.54:480][921]LightingResults: New page: Lighting Build
+[2023.03.08-04.37.54:502][921]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021526997E00), frame # 112921
+[2023.03.08-04.37.54:502][921]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215270F82C0), frame # 112921
+[2023.03.08-04.37.54:504][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.03.08-04.37.54:505][921]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.08-04.37.54:505][921]LogAIModule: Creating AISystem for world TitleScreen
+[2023.03.08-04.37.54:505][921]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021559C7BA00), frame # 112921
+[2023.03.08-04.37.54:505][921]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021581C50CC0), frame # 112921
+[2023.03.08-04.37.54:528][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.03.08-04.37.54:541][921]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.08-04.37.54:541][921]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2023.03.08-04.37.54:542][921]LogFileHelpers: Loading map 'TitleScreen' took 0.062
+[2023.03.08-04.37.54:574][921]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.08-04.37.54:574][921]LogContentValidation: Display: Validating World /Game/MyLevel.MyLevel
+[2023.03.08-04.37.54:581][921]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MyLevel_BuiltData.MyLevel_BuiltData
+[2023.03.08-04.37.54:581][921]LogContentValidation: Display: Validating World /Game/TitleScreen.TitleScreen
+[2023.03.08-04.38.33:494][770]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/wTitleScreen.wTitleScreen
+[2023.03.08-04.41.59:992][156]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Benjamin\Pictures\Saved Pictures\OIP.jpg)
+[2023.03.08-04.41.59:996][156]LogTexture: Display: Building textures: OIP (BGRA8, 474X316)
+[2023.03.08-04.42.48:817][460]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TitleScreen.TitleScreen
+[2023.03.08-04.42.48:846][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.03.08-04.42.51:173][460]LogSlate: Window 'Save Content' being destroyed
+[2023.03.08-04.42.51:189][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OIP" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/OIP.uasset" SILENT=true
+[2023.03.08-04.42.51:206][460]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/OIP44E732A549C704F2334F1C9AF4D6F23A.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/OIP.uasset'
+[2023.03.08-04.42.51:208][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/wTitleScreen" FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/wTitleScreen.uasset" SILENT=true
+[2023.03.08-04.42.51:214][460]LogSavePackage: Moving '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Saved/wTitleScreenE4E23310456C6B8B332852BA30990ECE.tmp' to '../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/wTitleScreen.uasset'
+[2023.03.08-04.42.51:216][460]Cmd: MAP LOAD FILE="../../../../../../Users/Benjamin/Documents/GitHub/UE4_PlatformTest/PlatformerTest/Content/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.08-04.42.51:216][460]LightingResults: New page: Lighting Build
+[2023.03.08-04.42.51:216][460]LoadErrors: New page: Loading map: TitleScreen.umap
+[2023.03.08-04.42.51:216][460]LogWorld: UWorld::CleanupWorld for TitleScreen, bSessionEnded=true, bCleanupResources=true
+[2023.03.08-04.42.51:216][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.08-04.42.51:216][460]MapCheck: New page: Map Check
+[2023.03.08-04.42.51:216][460]LightingResults: New page: Lighting Build
+[2023.03.08-04.42.51:242][460]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021581C50CC0), frame # 123460
+[2023.03.08-04.42.51:242][460]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021559C7BA00), frame # 123460
+[2023.03.08-04.42.51:244][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.03.08-04.42.51:272][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.03.08-04.42.51:295][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.03.08-04.42.51:298][460]LogAIModule: Creating AISystem for world TitleScreen
+[2023.03.08-04.42.51:298][460]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002152671D400), frame # 123460
+[2023.03.08-04.42.51:298][460]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021621C9A840), frame # 123460
+[2023.03.08-04.42.51:298][460]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.08-04.42.51:326][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.03.08-04.42.51:341][460]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.08-04.42.51:341][460]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.083ms to complete.
+[2023.03.08-04.42.51:341][460]LogFileHelpers: Loading map 'TitleScreen' took 0.125
+[2023.03.08-04.42.51:379][460]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.08-04.42.51:379][460]LogContentValidation: Display: Validating Texture2D /Game/OIP.OIP
+[2023.03.08-04.42.51:379][460]LogContentValidation: Display: Validating WidgetBlueprint /Game/wTitleScreen.wTitleScreen
+[2023.03.08-04.42.55:088][681]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/OIP.OIP
+[2023.03.08-04.42.55:113][681]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2023.03.08-04.43.01:035][ 19]LogEditorViewport: Clicking Background
+[2023.03.08-04.43.12:934][492]LogRHI: Error: Present Fail Count 1
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SyncInterval 0
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferDesc.Width 512
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferDesc.Height 363
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.OutputWindow 00000000005D0510
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.Windowed true
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2023.03.08-04.43.12:934][492]LogRHI: Error: SwapChainDesc.Flags 2050
+[2023.03.08-04.43.13:225][492]LogRHI: Error: Present Fail Count 1
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SyncInterval 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Width 963
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1020
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.OutputWindow 000000000F2C0AFC
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.Windowed true
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.Flags 2050
+[2023.03.08-04.43.13:225][492]LogRHI: Error: Present Fail Count 1
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SyncInterval 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1008
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Height 965
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.OutputWindow 000000000043078E
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.Windowed true
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2023.03.08-04.43.13:225][492]LogRHI: Error: SwapChainDesc.Flags 2050
+[2023.03.08-04.43.13:267][495]LogRHI: Error: Present Fail Count 2
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SyncInterval 0
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1008
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferDesc.Height 965
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.OutputWindow 000000000043078E
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.Windowed true
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2023.03.08-04.43.13:267][495]LogRHI: Error: SwapChainDesc.Flags 2050
+[2023.03.08-04.43.13:318][498]LogRHI: Error: Present Fail Count 3
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SyncInterval 0
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1008
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferDesc.Height 965
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.OutputWindow 000000000043078E
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.Windowed true
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2023.03.08-04.43.13:318][498]LogRHI: Error: SwapChainDesc.Flags 2050
+[2023.03.08-04.43.13:613][515]LogRHI: Error: Present Fail Count 1
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SyncInterval 0
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1008
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferDesc.Height 965
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.OutputWindow 000000000043078E
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.Windowed true
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2023.03.08-04.43.13:613][515]LogRHI: Error: SwapChainDesc.Flags 2050
+[2023.03.08-04.43.13:678][518]LogRHI: Error: Present Fail Count 2
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SyncInterval 0
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1008
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferDesc.Height 965
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.OutputWindow 000000000043078E
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.Windowed true
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2023.03.08-04.43.13:678][518]LogRHI: Error: SwapChainDesc.Flags 2050
+[2023.03.08-04.43.13:730][519]LogD3D11RHI: Error: SwapChain->ResizeBuffers(0, SizeX, SizeY, RenderTargetFormat, SwapChainFlags) failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:290 
+ with error DXGI_ERROR_DEVICE_REMOVED, 
+ Size=512x256 Format=DXGI_FORMAT_R10G10B10A2_UNORM(0x00000018)
+[2023.03.08-04.43.13:730][519]LogD3D11RHI: [Aftermath] GDynamicRHI=00000215001B80C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2023.03.08-04.43.13:730][519]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.03.08-04.43.13:730][519]LogWindows: Windows GetLastError: The operation completed successfully. (0)
